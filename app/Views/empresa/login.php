@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
         <title>Login</title>
         <!-- Required meta tags -->
@@ -12,6 +12,8 @@
     <body>
         
         <?php include 'app/Views/templates/navbar.php' ?>
+
+        
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
