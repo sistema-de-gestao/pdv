@@ -9,6 +9,8 @@ use routes\Routes;
 
 $route = new Routes();
 
+// var_dump($route);
+
 if ($route->Path != null) {
     require(REQ . 'Views' . DIRECTORY_SEPARATOR . '/' . $route->Path . '/' . $route->File . '.php');
 } else {
