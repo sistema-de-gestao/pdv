@@ -1,12 +1,10 @@
 <!--Estrutura do Template-->
 <nav class="navbar navbar-dark bg-dark">
     <span class="navbar-brand mb-0 h1 mr-0">
-        
         <span id="logo-text">Logo</span>
     </span>
     <ul style="padding-top: 10px" class="nav justify-content-center">
         <h4 class="text-white">
-            <i class="fas fa-home"></i>
             Nome da Empresa
         </h4>
     </ul>
