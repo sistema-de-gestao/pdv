@@ -1,7 +1,7 @@
 <!--Estrutura do Template-->
 <nav class="navbar navbar-dark bg-dark">
     <span class="navbar-brand mb-0 h1 mr-0">
-        <span id="logo-text">Logo</span>
+        <span id="logo-text">Nossa Logo</span>
     </span>
     <ul style="padding-top: 10px" class="nav justify-content-center">
         <h4 class="text-white">
@@ -38,7 +38,22 @@
     <span></span>
     <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link" href="<?=URL?>/empresa/dashboard">Dasboard</a>
+            <a class="nav-link px-2" href="<?=URL?>/empresa/dashboard">
+                <i class="fas fa-tachometer-alt"></i>
+                Dasboard
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link px-2" href="<?=URL?>/empresa/conta">
+                <i class="fas fa-user-alt"></i>
+                Minha Conta
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link px-2" href="<?=URL?>/empresa/ajuda">
+                <i class="fas fa-question-circle"></i>
+                Ajuda
+            </a>
         </li>
     </ul>
     <span></span>
