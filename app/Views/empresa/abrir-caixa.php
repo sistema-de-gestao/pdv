@@ -80,20 +80,30 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        <form action="" method="post">
-                            <div class="form-group">
-                                <label for="">Funcionário:</label>
-                                <select class="form-control" name="" id="">
-                                    <option value="">Selecionar</option>
-                                </select>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save</button>
-                    </div>
+                    <form action="" method="post">
+                        <div class="modal-body">                            
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="">Funcionário:</label>
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Selecionar</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                    <label for="">Valor da Abertura:</label>
+                                    <input type="text" name="" id="" class="form-control" placeholder="R$ 0,00">                                      
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-success">Abrir Caixa</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
