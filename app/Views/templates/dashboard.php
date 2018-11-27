@@ -1,3 +1,8 @@
+<?php
+    use app\Controllers\CompaniesController;
+
+    $company = new CompaniesController();
+?>
 <!--Estrutura do Template-->
 <nav class="navbar navbar-dark bg-dark">
     <span class="navbar-brand mb-0 h1 mr-0">
@@ -5,7 +10,7 @@
     </span>
     <ul style="padding-top: 10px" class="nav justify-content-center">
         <h4 class="text-white">
-            Nome da Empresa
+            <?= $company->Select('name') ?>
         </h4>
     </ul>
     <ul class="nav justify-content-end">
@@ -23,7 +28,7 @@
         <div class="dropdown nav-item">
             <span style="cursor: pointer" class="nav-link text-white">
                 <i class="fas fa-user-alt"></i>
-                Nível: Usuário
+                Admin: Usuário
                 <i class="fas fa-caret-down"></i>
             </span> 
             <div class="dropdown-content dropdown-menu-right text-center p-1">

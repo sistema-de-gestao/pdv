@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `db_pdv`.`clients` (
   `state` CHAR(2) NOT NULL,
   `companies_id` INT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `fk_clients_companies_idx` (`companies_id` ASC) VISIBLE,
+  INDEX `fk_clients_companies_idx` (`companies_id` ASC),
   CONSTRAINT `fk_clients_companies`
     FOREIGN KEY (`companies_id`)
     REFERENCES `db_pdv`.`companies` (`id`)
@@ -70,7 +70,7 @@ CREATE TABLE IF NOT EXISTS `db_pdv`.`contributors` (
   `password` VARCHAR(45) NOT NULL,
   `companie_id` INT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `fk_contributors_companies1_idx` (`companie_id` ASC) VISIBLE,
+  INDEX `fk_contributors_companies1_idx` (`companie_id` ASC),
   CONSTRAINT `fk_contributors_companies1`
     FOREIGN KEY (`companie_id`)
     REFERENCES `db_pdv`.`companies` (`id`)
