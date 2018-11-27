@@ -53,12 +53,18 @@
                 <i class="fas fa-plus-circle"></i>
                 Cadastros
             </span> 
-            <div class="dropdown-content dropdown-menu-right p-1">
+            <div class="dropdown-content p-1">
                 <a class="dropdown-item" href="logout" data-toggle="modal" data-target="#addFuncionario">
                     <i class="fas fa-user-plus"></i> Funcionários 
                 </a>
+                <a class="dropdown-item" href="clientes">
+                    <i class="fas fa-user-friends"></i> Clientes 
+                </a>
                 <a class="dropdown-item" href="produtos">
                     <i class="fas fa-box"></i> Produtos 
+                </a>
+                <a class="dropdown-item" href="fornecedores">
+                    <i class="fas fa-truck"></i> Fornecedores 
                 </a>
             </div>
         </div> 

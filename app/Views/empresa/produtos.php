@@ -35,7 +35,7 @@
             </h1>
             <h1 class="text-center mb-5">                            
                 <button type="button" class="btn btn-success btn-lg"  data-toggle="modal" data-target="#addProduto">
-                    Cadastras Novo Produto
+                    Cadastrar Novo Produto
                 </button>
             </h1>
             <table id="produtos" class="table table-striped table-hover table-bordered">
