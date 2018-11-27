@@ -32,7 +32,7 @@
                 <i class="fas fa-caret-down"></i>
             </span> 
             <div class="dropdown-content dropdown-menu-right text-center p-1">
-                <a class="dropdown-item" href="logout" data-toggle="modal" data-target="#logoutModal">
+                <a id="logout" class="dropdown-item" href="logout" data-toggle="modal" data-target="#logoutModal">
                     Sair <i class="fas fa-sign-out-alt"></i> 
                 </a>
             </div>
@@ -48,6 +48,20 @@
                 Dasboard
             </a>
         </li>
+        <div class="dropdown nav-item">
+            <span style="cursor: pointer" class="nav-link text-white">
+                <i class="fas fa-plus-circle"></i>
+                Cadastros
+            </span> 
+            <div class="dropdown-content dropdown-menu-right p-1">
+                <a class="dropdown-item" href="logout" data-toggle="modal" data-target="#addFuncionario">
+                    <i class="fas fa-user-plus"></i> Funcionários 
+                </a>
+                <a class="dropdown-item" href="produtos">
+                    <i class="fas fa-box"></i> Produtos 
+                </a>
+            </div>
+        </div> 
         <li class="nav-item">
             <a class="nav-link px-2" href="<?=URL?>/empresa/conta">
                 <i class="fas fa-user-alt"></i>
@@ -78,6 +92,29 @@
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
             <a href="<?=$_SERVER['REQUEST_URI']?>/logout" class="btn btn-danger">Sair</a>
         </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Cadastrar Funcionário-->
+<div class="modal fade" id="addFuncionario" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Cadastrar Funcionario</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="" method="post">
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success">Salvar</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>

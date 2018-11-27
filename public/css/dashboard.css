@@ -17,7 +17,7 @@
     color: #ffffff;
     opacity: 0.6;
 }
-#logout {
+#logout:hover {
     color: #FF0000;
 }
 .dropdown {
@@ -44,7 +44,7 @@
     display: block;
 }
 
-.dropdown-content a:hover {color: #d20911;background-color: transparent;}
+.dropdown-content a:hover {color: #007bff;background-color: transparent;}
 .dropdown-content a:focus {background-color: #fff;}
 
 .dropdown:hover .dropdown-content{display: block;}

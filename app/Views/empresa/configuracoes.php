@@ -19,12 +19,28 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     </head>
+    <style>.card {-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.10);-moz-box-shadow: 0 1px 2px rgba(0,0,0,.10);box-shadow: 0 1px 2px rgba(0,0,0,.10);border: 1px solid rgba(0,0,0,.2);border-radius: 0;color: black;}.card-header{font-size: 20px;}#nav-tabContent .card .card-header{border-bottom: 2px solid #007bff;font-size: 22px}.list-group-item.active{background-color: #f1f2f7;color: black;border: 1px solid #007bff;border-left: 5px solid #007bff;border-radius: 0;}</style>    
     <body style="font-family: 'Niramit', sans-serif;background-color: #f1f2f7;">
 
         <?php include 'app/Views/templates/dashboard.php'?>
 
         <div class="container mt-5">
-            
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-bars"></i>
+                            Menu
+                        </div>
+                        <div class="card-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                
+                </div>
+            </div>
         </div>
         
         <!-- Optional JavaScript -->
